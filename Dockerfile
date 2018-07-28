@@ -5,6 +5,7 @@ RUN apt-get upgrade -y
 RUN pip install --upgrade pip
 
 RUN apt-get install python-dev libmysqlclient-dev -y
+RUN apt-get install python-pyodbc -y
 
 RUN apt-get install tesseract-ocr -y
 RUN apt-get install tesseract-ocr-eng -y
