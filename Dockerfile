@@ -20,4 +20,8 @@ VOLUME /app
 
 EXPOSE 8000
 
-ENTRYPOINT ["python", "manage.py", "runserver", "0.0.0.0:8000", "--insecure"]
+#Provisioning 
+#ENTRYPOINT /usr/bin/docker_entrypoint.sh
+
+#Service
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000", "--insecure"]
