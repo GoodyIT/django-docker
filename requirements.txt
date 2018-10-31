@@ -5,7 +5,7 @@ Unipath==1.1
 beautifulsoup4==4.4.0
 django-picker==0.2.4
 django-table-prefix==0.0.5
-requests==2.7.0
+requests==2.20.0
 django-enumfield==1.2.1
 django-solo==1.1.0
 django-bootstrap3-datetimepicker==2.2.3
