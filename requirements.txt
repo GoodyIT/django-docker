@@ -1,4 +1,4 @@
-Django==1.11.23
+Django==1.11.28
 Fabric==1.10.2
 Pillow==3.4.0
 Unipath==1.1
