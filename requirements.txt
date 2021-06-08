@@ -1,6 +1,6 @@
 Django==1.11.23
 Fabric==1.10.2
-Pillow==3.4.0
+Pillow==8.2.0
 Unipath==1.1
 beautifulsoup4==4.4.0
 django-picker==0.2.4
